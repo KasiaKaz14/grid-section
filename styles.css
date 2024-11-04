@@ -17,6 +17,11 @@ body {
 }
 
 .first-grid-section {
+  width: 375px;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-size: 104px 102px;
+  background-position: right 25px top;
   background-color: var(--first-section-color);
   border-radius: 10px;
   display: flex;
@@ -35,13 +40,19 @@ body {
   width: 50px;
 }
 
+.first-section-icon {
+  width: 102px;
+  height: 104px;
+  margin: 0;
+  margin-left: 250px;
+}
+
 .first-section-name {
   font-weight: var(--font-weight-light);
   color: var(--main-font-color);
   margin: 0;
   margin-top: 40px;
   line-height: 1.6;
-  font-size: 20px;
 }
 
 .verified-first {
@@ -49,7 +60,14 @@ body {
   font-weight: var(--font-weight-bold);
   margin: 0;
   margin-top: 65px;
-  margin-left: -120px;
-  font-size: 17px;
+  margin-left: -85px;
   line-height: 1.2;
+}
+
+.first-comment {
+  color: var(--main-font-color);
+  font-weight: var(--font-weight-light);
+  font-size: 16px;
+  margin: 0 auto;
+  width: 410px;
 }
