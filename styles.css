@@ -1,0 +1,7 @@
+:root {
+  --background-color: hsl(0, 0%, 81%);
+  --first-section-color: hsl(263, 55%, 52%);
+  --main-comment-font-color: hsl(0, 0%, 100%);
+  --color: hsl(217, 19%, 35%);
+  --main-desc-font: hsl(219, 29%, 14%);
+}
