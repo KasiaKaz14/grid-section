@@ -1,7 +1,55 @@
 :root {
-  --background-color: hsl(0, 0%, 81%);
+  --background-color: hsl(210, 46%, 95%);
   --first-section-color: hsl(263, 55%, 52%);
-  --main-comment-font-color: hsl(0, 0%, 100%);
+  --main-font-color: hsl(0, 0%, 100%);
   --color: hsl(217, 19%, 35%);
   --main-desc-font: hsl(219, 29%, 14%);
+  --font-size: 13px;
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  --font-weight-light: 500;
+  --font-weight-bold: 600;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.first-grid-section {
+  background-color: var(--first-section-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.first-section-img {
+  border-radius: 50%;
+  border: 4px solid hsl(263, 67%, 68%);
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 50px;
+}
+
+.first-section-name {
+  font-weight: var(--font-weight-light);
+  color: var(--main-font-color);
+  margin: 0;
+  margin-top: 40px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.verified-first {
+  color: hsl(263, 67%, 68%);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  margin-top: 65px;
+  margin-left: -120px;
+  font-size: 17px;
+  line-height: 1.2;
 }
