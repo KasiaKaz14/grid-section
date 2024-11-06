@@ -4,10 +4,14 @@
   --main-font-color: hsl(0, 0%, 100%);
   --third-section-color: hsl(0, 0%, 100%);
   --second-section-color: hsl(217, 19%, 35%);
+  --fourth-section-color: hsl(219, 29%, 14%);
   --third-name-color: hsl(217, 19%, 35%);
   --third-comment-color: hsl(217, 19%, 35%);
+  --fourth-comment-color: hsl(0, 0%, 100%);
+  --fourth-comment-desc: hsl(0, 0%, 81%);
   --main-desc-font: hsl(219, 29%, 14%);
   --paragraph-nd: hsl(0, 0%, 81%);
+  --verified-color-3-4: hsl(0, 1%, 66%);
   --font-size: 13px;
   --font-family: "Barlow Semi Condensed", sans-serif;
   --font-weight-light: 500;
@@ -140,7 +144,7 @@ body {
 }
 
 .verified-third {
-  color: hsl(0, 1%, 66%);
+  color: var(--verified-color-3-4);
   font-weight: var(--font-weight-light);
   margin-left: -99px;
 }
@@ -154,5 +158,28 @@ body {
   color: hsl(210, 11%, 49%);
   margin-bottom: 30px;
   width: 250px;
+  line-height: 1.4;
+}
+
+.fourth-grid-section {
+  height: 383px;
+  background-color: var(--fourth-section-color);
+}
+
+.verified-fourth {
+  color: var(--verified-color-3-4);
+  font-weight: var(--font-weight-light);
+  padding-top: 3px;
+  margin-left: -89px;
+}
+
+.fourth-comment {
+  color: var(--fourth-comment-color);
+}
+
+.fourth-comment-desc {
+  color: var(--fourth-comment-desc);
+  width: 262px;
+  margin-bottom: 25px;
   line-height: 1.4;
 }
