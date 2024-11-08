@@ -5,13 +5,19 @@
   --third-section-color: hsl(0, 0%, 100%);
   --second-section-color: hsl(217, 19%, 35%);
   --fourth-section-color: hsl(219, 29%, 14%);
+  --fifth-section-color: hsl(0, 0%, 100%);
   --third-name-color: hsl(217, 19%, 35%);
+  --fifth-name-color: hsl(217, 19%, 35%);
+  --verified-color-third: hsl(0, 1%, 66%);
+  --verified-color-fourth: hsl(0, 1%, 66%);
+  --verified-color-fifth: hsl(0, 1%, 66%);
   --third-comment-color: hsl(217, 19%, 35%);
   --fourth-comment-color: hsl(0, 0%, 100%);
+  --fifth-comment-color: hsl(217, 19%, 35%);
   --fourth-comment-desc: hsl(0, 0%, 81%);
+  --fifth-comment-desc: hsl(0, 1%, 66%);
   --main-desc-font: hsl(219, 29%, 14%);
   --paragraph-nd: hsl(0, 0%, 81%);
-  --verified-color-3-4: hsl(0, 1%, 66%);
   --font-size: 13px;
   --font-family: "Barlow Semi Condensed", sans-serif;
   --font-weight-light: 500;
@@ -28,6 +34,7 @@ body {
   width: 325px;
   display: grid;
   gap: 25px;
+  margin: 0 auto;
 }
 
 .section-general {
@@ -84,12 +91,13 @@ body {
 }
 
 .first-grid-section {
+  height: 444px;
   background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-size: 104px 102px;
-  background-position: right 32px top;
+  background-position: right 34px top;
   background-color: var(--first-section-color);
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .first-section-img {
@@ -144,7 +152,7 @@ body {
 }
 
 .verified-third {
-  color: var(--verified-color-3-4);
+  color: var(--verified-color-third);
   font-weight: var(--font-weight-light);
   margin-left: -99px;
 }
@@ -167,7 +175,7 @@ body {
 }
 
 .verified-fourth {
-  color: var(--verified-color-3-4);
+  color: var(--verified-color-fourth);
   font-weight: var(--font-weight-light);
   padding-top: 3px;
   margin-left: -89px;
@@ -182,4 +190,33 @@ body {
   width: 262px;
   margin-bottom: 25px;
   line-height: 1.4;
+}
+
+.fifth-grid-section {
+  height: 440px;
+  background-color: var(--fifth-section-color);
+}
+
+.fifth-section-name {
+  color: var(--fifth-name-color);
+}
+
+.verified-fifth {
+  color: var(--verified-color-fifth);
+  font-weight: var(--font-weight-light);
+  padding-top: 3px;
+  margin-left: -70px;
+}
+
+.fifth-comment {
+  color: var(--fifth-comment-color);
+  font-weight: var(--font-weight-bold);
+  width: 270px;
+}
+
+.fifth-comment-desc {
+  color: var(--fifth-comment-desc);
+  width: 261px;
+  line-height: 1.4;
+  margin-bottom: 20px;
 }
