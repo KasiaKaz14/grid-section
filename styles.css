@@ -175,6 +175,10 @@ body {
 .third-grid-section {
   height: 222px;
   background-color: var(--third-section-color);
+  @media screen and (min-width: 768px) {
+    width: 254px;
+    height: 264px;
+  }
 }
 
 .third-section-name {
@@ -191,6 +195,9 @@ body {
 .third-comment {
   color: var(--third-comment-color);
   font-weight: var(--font-weight-bold);
+  @media screen and (min-width: 768px) {
+    width: 170px;
+  }
 }
 
 .third-comment-desc {
@@ -198,11 +205,18 @@ body {
   margin-bottom: 30px;
   width: 250px;
   line-height: 1.4;
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
 }
 
 .fourth-grid-section {
   height: 383px;
   background-color: var(--fourth-section-color);
+  @media screen and (min-width: 768px) {
+    width: 538px;
+    height: 265px;
+  }
 }
 
 .verified-fourth {
@@ -214,6 +228,9 @@ body {
 
 .fourth-comment {
   color: var(--fourth-comment-color);
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 }
 
 .fourth-comment-desc {
@@ -221,6 +238,9 @@ body {
   width: 262px;
   margin-bottom: 25px;
   line-height: 1.4;
+  @media screen and (min-width: 768px) {
+    width: 470px;
+  }
 }
 
 .fifth-grid-section {
@@ -229,6 +249,10 @@ body {
   -webkit-box-shadow: 0px 12px 24px -21px rgba(18, 18, 19, 1);
   -moz-box-shadow: 0px 12px 24px -21px rgba(18, 18, 19, 1);
   box-shadow: 0px 12px 24px -21px rgba(18, 18, 19, 1);
+  @media screen and (min-width: 768px) {
+    width: 255px;
+    height: 572px;
+  }
 }
 
 .fifth-section-name {
@@ -253,4 +277,7 @@ body {
   width: 261px;
   line-height: 1.4;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    width: 195px;
+  }
 }
