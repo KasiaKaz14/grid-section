@@ -37,12 +37,14 @@ body {
   margin: 0 auto;
   margin-bottom: 25px;
   @media screen and (min-width: 768px) {
-    width: 1120px;
     display: grid;
+    grid-template-areas:
+      "first first second fifth"
+      "third fourth fourth fifth";
+    grid-template-rows: auto auto;
+    width: 1120px;
     justify-content: center;
-    align-content: center;
-    gap: 25px;
-    margin: 0 auto;
+    align-items: center;
   }
 }
 
@@ -105,11 +107,12 @@ body {
   background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-size: 104px 102px;
-  background-position: right 107px top;
+  background-position: right 35px top;
   background-color: var(--first-section-color);
   padding-bottom: 30px;
   @media screen and (min-width: 768px) {
     width: 538px;
+    grid-area: first;
   }
 }
 
@@ -146,6 +149,7 @@ body {
   @media screen and (min-width: 768px) {
     width: 254px;
     height: 280px;
+    grid-area: second;
   }
 }
 
@@ -178,6 +182,7 @@ body {
   @media screen and (min-width: 768px) {
     width: 254px;
     height: 264px;
+    grid-area: third;
   }
 }
 
@@ -216,6 +221,7 @@ body {
   @media screen and (min-width: 768px) {
     width: 538px;
     height: 265px;
+    grid-area: fourth;
   }
 }
 
@@ -252,6 +258,7 @@ body {
   @media screen and (min-width: 768px) {
     width: 255px;
     height: 572px;
+    grid-area: fifth;
   }
 }
 
