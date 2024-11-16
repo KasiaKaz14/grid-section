@@ -287,7 +287,7 @@ body {
 }
 
 .fifth-comment-desc {
-  color: var(--fifth-comment-desc);
+  color: hsl(210, 11%, 49%);
   width: 261px;
   line-height: 1.4;
   margin-bottom: 20px;
